@@ -19,11 +19,9 @@
 - Proposed changes that could reduce delays by X%, potentially saving $X/year in operational costs.
 
 ### Key visuals
- (/assets/img/Top10.png)
-
- (/assets/img/ROC.png)
-
- (/assets/img/BEFOREAFTER.png)
+ ![Top 10 Feature Importances](assets/img/Top10.png)
+![ROC Curve](assets/img/ROC.png)
+![Before vs After Improvements](assets/img/BEFOREAFTER.png)
 
 
  --
