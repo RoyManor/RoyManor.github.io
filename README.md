@@ -28,5 +28,7 @@ I worked on analyzing shipment data from 10,999 orders to better understand what
  
 This project helped me sharpen my skills in analyzing real-world data and solving practical problems. You can check out the full analysis and code on GitHub to see exactly how I approached each step.
 
+[View Full Analysis on GitHub](https://github.com/RoyManor/RoyManor.github.io/blob/main/shipment_analysis.ipynb) 
+
  ---
 
