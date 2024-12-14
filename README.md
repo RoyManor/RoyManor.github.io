@@ -19,10 +19,11 @@ I worked on analyzing shipment data from 10,999 orders to better understand what
 - Proposed changes that could reduce delays by X%, potentially saving $X/year in operational costs.
 
 ### Key visuals
- ![Top 10 Feature Importances](assets/Top10.png)
-![ROC Curve](assets/ROC.png)
-![Before vs After Improvements](assets/BEFOREAFTER.png)
+![Top 10 Feature Importances](assets/img/Top10.png)
 
+![ROC Curve](assets/img/ROC.png)
+
+![Before vs After Improvements](assets/img/BEFOREAFTER.png)
 
  ---
  
