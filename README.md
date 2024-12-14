@@ -2,7 +2,8 @@
 
 ## Shipment Delay Analysis
 I worked on analyzing shipment data from 10,999 orders to better understand what causes delays and how they impact customer satisfaction. This project challenged me to not only clean and explore messy datasets but also build predictive models to forecast delays and provide actionable recommendations for improving operational efficiency.
-  
+The dataset used in this analysis was obtained from [Kaggle's Customer Analytics Dataset](https://www.kaggle.com/datasets/prachi13/customer-analytics). 
+
 ### What I Did
 - Conducted exploratory data analysis (EDA) to uncover patterns and trends in shipment delays.
 - Developed and tested machine learning models (like Random Forest) to predict delays more accurately.
