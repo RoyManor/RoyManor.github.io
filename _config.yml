@@ -1,12 +1,6 @@
 title: Roy Manor
 logo: /assets/img/IMG_5389.jpeg
-description: |
-  **Roy Manor**  
-  _Data Analyst | Business Developer | Problem Solver_
-
-  "I'm driven by curiosity and a passion for solving practical problems using data. I love diving into datasets, uncovering patterns, and building tools that help improve processes and drive smarter decisions. With experience in machine learning, analytics, and business development, I focus on turning insights into action."
-
-  **Key Skills:** Python, SQL, Data Analysis, Machine Learning, Visualization
+description: Data Analyst | Business Developer | Problem Solver
 #show_downloads: true
 remote_theme: mmistakes/minimal-mistakes
 
