@@ -1,5 +1,2 @@
-# Student/ Business Developer 
+# My Projects 
 
-## Education
-
-### Work Expirience 
