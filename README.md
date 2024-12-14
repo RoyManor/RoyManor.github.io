@@ -1,7 +1,7 @@
 # My Projects 
 
 ## Shipment Delay Analysis
-- I worked on analyzing shipment data from 10,999 orders to better understand what causes delays and how they impact customer satisfaction. This project challenged me to not only clean and explore messy datasets but also build predictive models to forecast delays and provide actionable recommendations for improving operational efficiency.
+I worked on analyzing shipment data from 10,999 orders to better understand what causes delays and how they impact customer satisfaction. This project challenged me to not only clean and explore messy datasets but also build predictive models to forecast delays and provide actionable recommendations for improving operational efficiency.
   
 ### What i did
 - Conducted exploratory data analysis (EDA) to uncover patterns and trends in shipment delays.
