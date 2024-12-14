@@ -1,9 +1,15 @@
 title: Roy Manor
-logo: /assets/IMG_5389.jpeg
 description: Data Analyst | Business Developer | Problem Solver
+logo: assets/img/IMG_5389.jpeg # Make sure this file exists in your repository
+theme: jekyll-theme-minimal
 show_downloads: true
-remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme
-
-
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-commonmark-ghpages
+  - jekyll-relative-links
+markdown: CommonMarkGhPages
+paginate: 10
