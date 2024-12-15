@@ -10,7 +10,7 @@ The goal of this analysis was to uncover actionable insights that can drive busi
 - Segment customers using RFM Analysis to prioritize retention strategies.
 - Examine time-based revenue trends to pinpoint peak sales periods.
 - Build a reliable sales forecasting model to predict future revenue, enabling proactive planning.
-- Through this project, I’ve developed clear and creative recommendations to help businesses optimize their sales strategies, retain high-value customers, and prepare for seasonal demand spikes. Let’s dive into the findings and actionable insights!
+- Through this project, I’ve developed clear and creative recommendations to help businesses optimize their sales strategies, retain high-value customers, and prepare for seasonal demand spikes.
 
 #### Tools and Techniques Used:
   Tools: Python, Pandas, Matplotlib, Seaborn, Statsmodels, Scikit-Learn
