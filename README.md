@@ -146,18 +146,13 @@ By focusing on high-demand products, maximizing key sales windows, and turning l
 
 The bottom line? Data isn’t just numbers—it’s the blueprint for decisions that drive real growth. I’ve built the map. Now it’s time to follow it to results. 🚀
 
+[View Full Analysis on GitHub](https://github.com/RoyManor/RoyManor.github.io/blob/main/SalesForecasting.ipynb) 
 
 
 
 
 
-
-
-
-
-
-
-
+---
 
 
 
@@ -175,6 +170,11 @@ The bottom line? Data isn’t just numbers—it’s the blueprint for decisions 
 I worked on analyzing shipment data from 10,999 orders to better understand what causes delays and how they impact customer satisfaction. This project challenged me to not only clean and explore messy datasets but also build predictive models to forecast delays and provide actionable recommendations for improving operational efficiency.
 The dataset used in this analysis was obtained from [Kaggle's Customer Analytics Dataset](https://www.kaggle.com/datasets/prachi13/customer-analytics). 
 
+### Key Objectives
+- Understand shipment delays and their root causes.
+- Identify patterns in customer behavior regarding shipments.
+- Propose actionable strategies to reduce delays and increase satisfaction.
+
 ### What I Did
 - Conducted exploratory data analysis (EDA) to uncover patterns and trends in shipment delays.
 - Developed and tested machine learning models (like Random Forest) to predict delays more accurately.
@@ -185,23 +185,77 @@ The dataset used in this analysis was obtained from [Kaggle's Customer Analytics
 - Python and Jupyter Notebook for analysis and modeling.
 - Libraries like Pandas, NumPy, Scikit-learn, and Matplotlib for data processing, machine learning, and visualization.
 
-### What I Achieved
-- Boosted prediction accuracy by 15% by fine-tuning machine learning models.
-- Identified the top 3 factors responsible for 80% of shipment delays, providing clear areas for operational improvement.
-- Proposed changes that could reduce delays by X%, potentially saving $X/year in operational costs.
+### Results and Insights
+From the Top 10 Feature Importances chart:
 
-### Key visuals
+- The Weight of Shipments (Weight_in_gms) emerged as the most critical factor influencing shipment delays.
+- Discount Offered and Cost of the Product follow closely, indicating that price incentives and product value play significant roles in determining shipment performance.
+- Secondary factors like Prior Purchases, Customer Rating, and Customer Care Calls highlight the impact of customer interactions and prior buying behavior on delivery outcomes.
+Business Insight:
+
+- By focusing on optimizing shipment weight handling and balancing discounts offered, logistics can significantly reduce delays and operational bottlenecks.
+
 ![Top 10 Feature Importances](assets/img/Top10.png)
 
+Model Performance Evaluation- The ROC Curves showcase the performance of multiple classification models used to predict shipment delays:
+- Random Forest and Support Vector Machine (SVM) achieved the highest AUC score of 0.74, indicating strong predictive capabilities.
+- Other models like Logistic Regression (AUC = 0.72) and Gaussian Naive Bayes (AUC = 0.73) also performed well but slightly below SVM and Random Forest.
+  Business Insight:
+
+- Random Forest and SVM models can be adopted for real-time shipment delay predictions, allowing for proactive interventions to avoid delays.
+  
 ![ROC Curve](assets/img/ROC.png)
+
+Operational Improvements- The Before vs After Operational Improvements chart demonstrates a significant reduction in delays:
+- On-Time Shipments improved from 30% to approximately 60% after implementing operational changes.
+- Conversely, Delayed Shipments reduced from nearly 70% to 40%.
+  Business Insight:
+
+- This improvement highlights the effectiveness of implementing changes such as:
+- Optimizing delivery routes.
+- Prioritizing heavy shipments.
+- Adjusting carrier performance metrics and incentives.
+The reduction in delays directly improves customer satisfaction and operational efficiency, ensuring higher retention rates and reduced costs.
 
 ![Before vs After Improvements](assets/img/BEFOREAFTER.png)
 
- ---
+ ### Actionable Insights
+ 1. Optimize Heavy Shipments
+
+- Prioritize light shipments for express delivery while clustering heavy ones into efficient bulk routes.
+- Use predictive insights to flag and preempt delays caused by shipment weight.
+  
+2. Turn Discounts Into Strategy
+
+- Align promotions with periods when logistics capacity is strongest to balance demand and delivery performance.
+  
+3. Proactive Delay Management
+
+- Deploy the AI model to predict delays in real-time and reroute shipments before issues occur.
+- Market this as a "predictable delivery guarantee" to build trust and attract customers.
+  
+4. Revamp Carrier Relationships
+
+- Introduce performance-based SLAs: reward carriers for on-time deliveries, especially for challenging shipments.
+- Dynamically rotate underperforming carriers out of critical routes to keep the system agile.
+- 
+5.  Customers First, Always
+
+- Send real-time delay alerts to improve transparency and reduce frustration.
+- Offer small loyalty rewards for significantly delayed, high-value orders to turn dissatisfaction into long-term trust.
+
+
+
+### Conclusion
+This project transformed shipment operations by combining data-driven insights with practical strategies. By identifying key delay drivers, leveraging AI for predictive accuracy, and implementing proactive solutions, I achieved a significant reduction in delays and improved on-time deliveries.
+
+With smarter routing, performance-based carrier management, and a customer-first approach, this analysis not only optimized logistics efficiency but also enhanced customer trust and satisfaction.
+
+The result is a scalable, reliable system that positions the business for sustainable growth, operational excellence, and a competitive advantage in the market. 🚀
+
  
-## This project helped me sharpen my skills in analyzing real-world data and solving practical problems. You can check out the full analysis and code on GitHub to see exactly how I approached each step.
 
 [View Full Analysis on GitHub](https://github.com/RoyManor/RoyManor.github.io/blob/main/shipment_analysis.ipynb) 
 
- ---
+
 
