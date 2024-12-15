@@ -197,7 +197,8 @@ Business Insight:
 
 ![Top 10 Feature Importances](assets/img/Top10.png)
 
-Model Performance Evaluation- The ROC Curves showcase the performance of multiple classification models used to predict shipment delays:
+Model Performance Evaluation:
+The ROC Curves showcase the performance of multiple classification models used to predict shipment delays:
 - Random Forest and Support Vector Machine (SVM) achieved the highest AUC score of 0.74, indicating strong predictive capabilities.
 - Other models like Logistic Regression (AUC = 0.72) and Gaussian Naive Bayes (AUC = 0.73) also performed well but slightly below SVM and Random Forest.
   Business Insight:
@@ -206,7 +207,8 @@ Model Performance Evaluation- The ROC Curves showcase the performance of multipl
   
 ![ROC Curve](assets/img/ROC.png)
 
-Operational Improvements- The Before vs After Operational Improvements chart demonstrates a significant reduction in delays:
+Operational Improvements:
+The Before vs After Operational Improvements chart demonstrates a significant reduction in delays:
 - On-Time Shipments improved from 30% to approximately 60% after implementing operational changes.
 - Conversely, Delayed Shipments reduced from nearly 70% to 40%.
   Business Insight:
