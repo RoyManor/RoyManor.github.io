@@ -163,6 +163,14 @@ The bottom line? Data isn’t just numbers—it’s the blueprint for decisions 
 
 
 
+
+
+
+
+
+
+
+
 ## E-Commerce Shipment Delay Analysis
 I worked on analyzing shipment data from 10,999 orders to better understand what causes delays and how they impact customer satisfaction. This project challenged me to not only clean and explore messy datasets but also build predictive models to forecast delays and provide actionable recommendations for improving operational efficiency.
 The dataset used in this analysis was obtained from [Kaggle's Customer Analytics Dataset](https://www.kaggle.com/datasets/prachi13/customer-analytics). 
